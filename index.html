@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>暗記</title>
+</head>
+
+<body>
+  <div class="Screen">
+    <div class="selectScreen">
+      <p class="title">問題選択</p>
+      <p class="select ml btn01"><span class="number">第01章</span> 日本語→英語</p>
+      <p class="select ml btn02"><span class="number">第02章</span> 英単→日本語</p>
+      <p class="select ml btn03"><span class="number">第03章</span> sample kyoumoiitennki</p>
+      <p class="select ml btn04"><span class="number">第04章</span> sample kyoumoiitennki</p>
+      <p class="select ml btn05"><span class="number">第05章</span> sample kyoumoiitennki</p>
+      <p class="select ml btn06"><span class="number">第06章</span> sample kyoumoiitennki</p>
+      <p class="select ml btn07"><span class="number">第07章</span> sample kyoumoiitennki</p>
+      <p class="select ml btn08"><span class="number">第08章</span> sample kyoumoiitennki</p>
+      <p class="select ml btn09"><span class="number">第09章</span> sample kyoumoiitennki</p>
+      <p class="select ml btn10"><span class="number">第10章</span> sample kyoumoiitennki</p>
+      <p class="select ml btn11"><span class="number">第11章</span> sample kyoumoiitennki</p>
+      <p class="select ml btn12"><span class="number">第12章</span> sample kyoumoiitennki</p>
+      <p class="select ml btn13"><span class="number">第13章</span> sample kyoumoiitennki</p>
+      <p class="select ml btn14"><span class="number">第14章</span> sample kyoumoiitennki</p>
+      <p class="select ml btn15"><span class="number">第15章</span> sample kyoumoiitennki</p>
+      <p class="select ml btn16"><span class="number">第16章</span> sample kyoumoiitennki</p>
+      <p class="select ml btn17"><span class="number">第17章</span> sample kyoumoiitennki</p>
+      <p class="select ml btn18"><span class="number">第18章</span> ???</p>
+    </div>
+    
+    <div class="quizBox">
+      <div class="line">
+        <div class="left"><p class="l-20">Question&nbsp;>&nbsp;</p><p class="r-85 q"></p></div>
+        <div class="right"><p class="l-20">Answer&nbsp;&nbsp;&nbsp;>&nbsp;</p><input  type="text" class="r-85 a"></div>
+        <span class="miss">Error : </span><span class="miss2">What you type does not match the answer!!</span>
+        <div class="hinto">ヒント：<span class="tttt"></span></div>
+        <div class="spell">
+          <div class="dousuru">闇の呪文</div>
+          <div class="dousuru">「length」と入力すると答えが何文字か表示される</div>
+          <div class="dousuru">「ヒントX」と入力すると、X文字(1~10)の答えを呼び出せる</div>
+        </div>
+        <div class="ankoku">
+          <div class="dousuru2">暗黒の呪文</div>
+          <div class="dousuru2">ホイミ：答えを表示する</div>
+          <div class="dousuru2">ザラキ：問題をスキップする</div>
+          <br>
+          <div class="dousuru2">もう一度「←→←→ba」入力でこの呪文の表示を削除！！</div>
+        </div>
+        <div class="result">
+          <p>問題数：<span class="qn"></span></p>
+          <p>ミス回数：<span class="pmiss"></span></p>
+          <p>lengthを使った数：<span class="plength"></span></p>
+          <p>ヒントを使った数：<span class="phinto"></span></p>
+          <p>ホイミを唱えた数：<span class="phoimi"></span></p>
+          <p>ザラキを唱えた数：<span class="pzaraki"></span><span>&nbsp;&nbsp;&nbsp;please scroll↓↓</span></p>
+          <br><br><br>
+          <p>問題選択画面で18章を選択すると・・・</p>
+          <button class="rbtn">最初の画面へ</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <audio class="audio" src="audio/kougeki.mp3"></audio>
+  <audio class="audio" src="audio/miss.mp3"></audio>
+  <audio class="audio" src="audio/ukeru.mp3"></audio>
+  <audio class="audio" src="audio/end.mp3"></audio>
+  <audio class="audio" src="audio/hit.mp3"></audio>
+  <audio class="audio" src="audio/spell.mp3"></audio>
+  <audio class="audio" src="audio/receive.mp3"></audio>
+  <audio class="audio" src="audio/levelup.mp3"></audio>
+  <audio class="audio"src="audio/kaifuku.mp3"></audio>
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
