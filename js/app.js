@@ -297,9 +297,6 @@ $(function () {
                 $('.phoimi').text(hoimi);
                 $('.pmiss').text(miss);
                 $('.qn').text(questionnumber);
-                $('.rbtn').on('click',function(){
-                  location.reload();
-                });
               }, 1000)
             }
             $('.q').text(selectedchapter[questionnumber][0]);
@@ -325,4 +322,3 @@ $(function () {
     });
   });
 });
-
